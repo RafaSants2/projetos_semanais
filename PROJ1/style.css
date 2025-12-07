@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body,html {
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    background-color: rgb(127, 161, 255);
+}
+
+article.menu1 {
+    background-color: rgb(116, 116, 233);
+    flex-flow: row nowrap;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    box-shadow: inset 0px 2px 10px rgba(0, 0, 0, 0.253);
+}
+
+article.menu1 i.material-symbols-outlined {
+    color: white;
+    margin-left: 5px;
+    cursor: pointer;
+    
+}
+
+article.menu1 img.logo {
+    max-width: 65px;
+    width: 100%;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+article.menu2 {
+    background-color: rgb(138, 58, 21);
+    box-shadow: inset  0px 2px 10px rgba(0, 0, 0, 0.39);
+    display: flex;
+    padding: 30px 0px 30px 15px;
+    
+}
+
+article.menu2 img.perfil {
+    border-radius: 50%;
+    max-width: 80px;
+    width: 100%;
+    padding-right: 10px;
+}
+
+article.menu2 h1 {
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: 100;
+    padding-bottom: 10px;
+    
+}
+
+.menu2 h1:hover {
+    text-decoration: underline;
+}
+
+article.menu2 p {
+    font-size: 15px;
+    color: #ffffffcc;
+}
+
+.menu2 div {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+article.menu3 {
+background-color: rgba(0, 0, 0, 0.514);
+
+}
+article.menu3 img.joia {
+    max-width: 25px;
+}
+
+article.menu3 p {
+    padding: 15px;
+    color: white;
+    font-weight: bold;
+}
+
+.menu3 div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
