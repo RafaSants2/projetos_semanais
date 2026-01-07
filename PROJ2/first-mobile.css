@@ -24,13 +24,24 @@ div.item {
     border: 1px solid white;
     width: 80vw;
     height: 600px;
+    
 }
 
 div.item > h1 {
     color: white;
     text-align: center;
-    font-size: 36px;
+    font-size: 30px;
     text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.89);
+
+}
+
+div.imput {
+    display: flex;
+    justify-content: center;
+    flex-flow: column nowrap;
+    align-items: center;
+    gap: 10px;
+    
 }
 
 div.email, div.senha {
@@ -39,11 +50,13 @@ div.email, div.senha {
 
 input[type="email"], input[type="password"] {
     height: 40px;
+    width: 300px;
     border-radius: 20px;
     border: 1px solid lightgrey;
     outline: none;
     padding-left: 40px;
-    
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.363);
+    font-size: 16px;
 }
 
 div.email > .material-symbols-outlined, div.senha > .material-symbols-outlined {
@@ -51,4 +64,24 @@ div.email > .material-symbols-outlined, div.senha > .material-symbols-outlined {
     bottom: 6px;
     font-size: 28px;
     padding-left: 10px;
+    
+}
+
+#nome_caixa {
+    font-size: 12px;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+div.coisas {
+    display: grid;
 }
