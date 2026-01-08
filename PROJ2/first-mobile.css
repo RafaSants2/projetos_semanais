@@ -15,7 +15,6 @@ main.pai {
     height: 100vh;
     background: linear-gradient(to bottom, rgb(110, 74, 238), rgb(108, 77, 221), rgb(118, 90, 218), rgb(131, 103, 235));
     display: flex;
-    flex-flow: column nowrap;
     align-items: center;
     justify-content: center;
 }
@@ -31,7 +30,7 @@ div.item {
     position: relative;
 }
 
-div.item > h1 {
+div.item  h1 {
     color: white;
     text-align: center;
     font-size: 30px;
@@ -52,7 +51,7 @@ div.email, div.senha {
 
 input[type="email"], input[type="password"] {
     height: 40px;
-    width: 68vw;
+    width: 70vw;
     border-radius: 20px;
     border: 1px solid lightgrey;
     outline: none;
@@ -71,8 +70,9 @@ div.email > .material-symbols-outlined, div.senha > .material-symbols-outlined {
 }
 
 #nome_caixa {
-    font-size: 13px;
+    font-size: 12px;
     color: white;
+    cursor: pointer;
 }
 
 input[type="checkbox"] {
@@ -83,7 +83,7 @@ input[type="checkbox"] {
 a {
     text-decoration: none;
     color: white;
-    font-size: 13px;
+    font-size: 12px;
     text-shadow: 0px 0px 3px black;
 }
 
@@ -92,7 +92,7 @@ a:hover {
 }
 
 div.coisas {
-    width: 68vw;
+    width: 70vw;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
@@ -106,7 +106,7 @@ div.juntos {
 
 input[type="button"] {
     height: 40px;
-    width: 68vw;
+    width: 70vw;
     /*width: 352px;*/
     border-radius: 10px;
     border: none;
@@ -122,5 +122,5 @@ a.new {
     position: absolute;
     bottom: 30px;
     align-self: center;
-    font-size: 15px;
+    font-size: 14px;
 }
